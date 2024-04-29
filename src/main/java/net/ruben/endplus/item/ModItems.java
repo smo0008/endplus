@@ -8,7 +8,7 @@ import net.ruben.endplus.EndplusMod;
 
 
 public class ModItems {
-    public static final Item ENDIUM_INGOT = registerItem("endium_ingot", new Item(new Item.Settings()));
+    public static final Item ENDEREON_CRYSTAL = registerItem("endereon_crystal", new Item(new Item.Settings()));
 
 
     public static void registerModItems() {

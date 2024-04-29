@@ -14,8 +14,8 @@ import net.ruben.endplus.EndplusMod;
 
 public class ModBlocks {
 
-    public static final Block ENDIUM_ORE = registerBlock("endium_ore",
-            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.copy(Blocks.END_STONE).strength(0.3f)));
+    public static final Block ENDEREON_ORE = registerBlock("endereon_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(2, 5), AbstractBlock.Settings.copy(Blocks.END_STONE).strength(0.5f)));
 
 
     public static void registerModBlocks() {

@@ -12,14 +12,14 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
     public static final ItemGroup ENDPLUS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(EndplusMod.MOD_ID, "maccas"),
+            new Identifier(EndplusMod.MOD_ID, "endplus"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.endplus"))
-                    .icon(() -> new ItemStack(ModItems.ENDIUM_INGOT)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.ENDIUM_INGOT);
+                    .icon(() -> new ItemStack(ModItems.ENDEREON_CRYSTAL)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.ENDEREON_CRYSTAL);
 
 
 
-                        entries.add(ModBlocks.ENDIUM_ORE);
+                        entries.add(ModBlocks.ENDEREON_ORE);
 
 
 

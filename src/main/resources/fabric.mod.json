@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "endplus",
+	"version": "${version}",
+	"name": "End Plus",
+	"description": "Adds new end themed items ",
+	"authors": [
+		"smo0008"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "endplus"
+	},
+	"license": "MIT License",
+	"icon": "assets/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ruben.endplus.EndplusMod"
+		],
+		"client": [
+			"net.ruben.endplus.EndplusClient"
+		]
+	},
+	"mixins": [
+		"endplus.mixins.json",
+		{
+			"config": "endplus.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
